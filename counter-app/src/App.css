@@ -1,0 +1,45 @@
+
+#root{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0%;
+  padding: 0%;
+  
+}
+body{
+  background-color: #0fe962;
+}
+.head{
+font-size: 35px;
+margin: 0%;
+padding: 0%;
+position: absolute; 
+top: 0;
+}
+.counter{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+button{
+  font-size:20px;
+  margin: 5px;
+  border-radius: 8px;
+  background-color: rgb(19, 129, 202);
+  color: aliceblue;
+  border: black solid;
+}
+.display{
+  font-size: 30px;
+}
+.five{
+      display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button:hover{
+  background-color: #882222;
+}
