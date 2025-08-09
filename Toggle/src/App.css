@@ -1,0 +1,50 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.app {
+  text-align: center;
+  padding: 60px 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.bulb {
+  display: inline-block;
+  width: 150px;
+  height: 230px;
+  cursor: pointer;
+  user-select: none;
+  outline: none;
+}
+
+.svg-bulb {
+  width: 150px;
+  height: auto;
+  transition: transform 200ms ease, filter 200ms ease, opacity 200ms ease;
+}
+
+.bulb.on .svg-bulb {
+  filter: drop-shadow(0 0 12px rgba(255, 200, 0, 0.9));
+  transform: scale(1.03);
+  opacity: 1;
+}
+
+.bulb.off .svg-bulb {
+  transform: scale(1);
+  opacity: 0.9;
+  filter: none;
+}
+
+.status {
+  margin-top: 18px;
+  color: #444;
+}
+.bulb-box {
+  text-align: "center";
+  margin-top: "30px";
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
